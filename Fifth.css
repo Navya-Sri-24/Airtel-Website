@@ -1,0 +1,48 @@
+.blue{
+    color: blue;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Main{
+    margin-left: 10%;
+}
+.blue:hover{
+    text-decoration: underline;
+}
+.Main h1{
+    margin-top: 5%;
+    font-weight: 800px;
+}
+.Main p{
+    color: gray;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 90vw;
+    height:90vh;
+    gap: 50px;
+  }
+  
+  .image-container1 {
+    position: relative;
+    width: 25vw; 
+    height: 50vh; 
+    overflow: hidden;
+  }
+  
+  .zoom-img {
+    width: 20vw;
+    height: 30vh;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .zoom-img:hover {
+    transform: scale(1.1);
+    cursor: pointer; 
+  }
+  

@@ -1,0 +1,68 @@
+.bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .bottomlogo {
+    margin-left: 6%;
+    cursor: pointer;
+  }
+  
+  .bottom p {
+    color: gray;
+    margin-left: 12%;
+    margin-top: 2%;
+  }
+  
+  .stores {
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  
+  .stores img {
+    width: 10vw;
+    padding-right: 30px;
+  }
+  .two p{
+    color: gray;
+    margin-top: 15%;
+  }
+  .logos {
+    margin-left: 70%;
+    margin-top: -22%;
+    display: flex; 
+    gap: 20px; 
+  }
+  .logos i {
+    font-size: 24px;
+    color: black; 
+  }
+  .buttontop button{
+    margin-left: 180%;
+    width: 10vw;
+    margin-top: 15%;
+  }
+  .list{
+    background-color: rgb(238, 233, 233);
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+  }
+  .list p{
+    color: gray;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .list ul{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 1%;
+  }
+  .final{
+    background-color: white;
+  }
+  .final img{
+    margin-left: 5%;
+  }

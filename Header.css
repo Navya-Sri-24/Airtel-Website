@@ -1,0 +1,78 @@
+.header-container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .initial {
+    color: gray;
+    margin: 25px 100px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+  }
+  
+  .initial p {
+    margin: 0;
+  }
+  
+  .initial p:hover {
+    color: red;
+    text-decoration: overline;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .explore {
+    color: red;
+    font-size: large;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 85%;
+    margin-top: -4%;
+  }
+  
+  .explore a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .explore:hover {
+    text-decoration: overline;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 5px); 
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1;
+    display: none; 
+  }
+  
+  .explore:hover .dropdown-menu {
+    display: block; 
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu ul li {
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: transform 0.2s; 
+  }
+  
+  .dropdown-menu ul li:hover {
+    color: red;
+    transform: scale(1.1); 
+  }
+  

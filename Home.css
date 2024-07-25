@@ -1,0 +1,9 @@
+.image-slider {
+    max-width: 100%;
+  }
+  
+  .image-slider img {
+    width: 98vw;
+    height: 70vh;
+  }
+  

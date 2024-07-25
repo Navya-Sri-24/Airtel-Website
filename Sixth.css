@@ -1,0 +1,29 @@
+.rows-container {
+    display: flex;
+    gap: 50px;
+    margin-top: -21%; 
+    margin-left: 5%; 
+  }
+  
+  .column {
+    border: none;
+    padding: 10px;
+    background-color: white;
+    width: 320px; 
+  }
+  
+  .column h2 {
+    margin-bottom: 10px;
+  }
+  
+  .sub-sentences {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-sentences p {
+    margin: 10px 0;
+  }
+  .sub-sentences p:hover {
+    color: red;
+    cursor: pointer;
+  }  
